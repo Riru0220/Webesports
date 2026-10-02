@@ -1,0 +1,452 @@
+/* ページ全体 */
+body {
+    margin: 0;
+    background: #f7f3ed;
+    color: #4b443e;
+    font-family: serif;
+}
+
+
+/* ヘッダー */
+header {
+    height: 80px;
+    background: #eee9e1;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 40px;
+    border-bottom: 1px solid #aaa;
+}
+
+
+/* ロゴ */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.logo span {
+    font-size: 20%;
+    font-style: italic;
+    line-height: 1;
+}
+
+.logo small {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+
+/* メニュー */
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    color: #4b443e;
+    text-decoration: none;
+
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+
+/* 予約ボタン */
+.reserve-button {
+    background: #8b735f;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 20px;
+    margin-left: 20px;
+
+    border-radius: 3px;
+}
+
+
+/* メイン画像 */
+.main-image {
+    position: relative;
+}
+
+.main-image img {
+    width: 100%;
+    height: 500px;
+
+    object-fit: cover;
+}
+
+
+/* 画像の上の文字 */
+.message {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.message h1 {
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.message p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+
+/* コンセプト */
+.concept {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 80px;
+}
+
+
+.concept div {
+    width: 45%;
+}
+
+
+.concept h2 {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+
+.concept p {
+    line-height: 2;
+}
+
+
+.concept img {
+    width: 40%;
+}
+
+
+/* 詳しく見るボタン */
+.more {
+    display: inline-block;
+
+    color: #4b443e;
+    text-decoration: none;
+
+    border: 1px solid #8b735f;
+
+    padding: 10px 25px;
+}
+
+
+/* フッター */
+footer {
+    text-align: center;
+
+    padding: 30px;
+
+    background: #eee9e1;
+}
+
+/*2ページ目*/
+/* MENUページ */
+
+.menu-page {
+    width: 85%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.menu-page h1 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.sub-title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+
+/* メニュー1個分 */
+
+.menu-box {
+    display: flex;
+    align-items: center;
+
+    width: 80%;
+    margin: 0 auto 30px;
+
+    gap: 30px;
+}
+
+
+/* メニュー画像 */
+
+.menu-box img {
+    width: 220px;
+    height: 130px;
+    object-fit: cover;
+}
+
+
+/* 文字 */
+
+.menu-list {
+    width: 100%;
+}
+
+.menu-list h2 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: normal;
+
+    border-bottom: 1px solid #aaa;
+
+    padding-bottom: 8px;
+}
+
+
+/* 料金 */
+
+.menu-list p {
+    font-size: 14px;
+
+    border-bottom: 1px dotted #aaa;
+
+    padding: 8px 0;
+    margin: 0;
+}
+
+
+/* 値段を右側にする */
+
+.menu-list span {
+    float: right;
+}
+
+
+/* 注意書き */
+
+.note {
+    text-align: right;
+    font-size: 11px;
+    margin-top: 20px;
+}
+
+/*3ページ目*/
+/* ABOUTページ */
+
+.about-page {
+    width: 85%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.about-page h1 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.sub-title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+
+/* サロン紹介 */
+
+.about-intro {
+    display: flex;
+    align-items: center;
+
+    width: 80%;
+    margin: 0 auto 60px;
+
+    gap: 40px;
+}
+
+.about-intro img {
+    width: 45%;
+}
+
+.about-intro h2 {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.8;
+}
+
+.about-intro p {
+    font-size: 13px;
+    line-height: 2;
+}
+
+.owner {
+    text-align: right;
+    margin-top: 25px;
+}
+
+
+/* こだわり */
+
+.commitment {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.commitment > h2 {
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 2px;
+
+    border-bottom: 1px solid #aaa;
+
+    padding-bottom: 15px;
+}
+
+
+/* 4つのポイント */
+
+.point-list {
+    display: flex;
+    justify-content: space-between;
+
+    text-align: center;
+}
+
+.point {
+    width: 25%;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+}
+
+.point:last-child {
+    border-right: none;
+}
+
+
+/* 丸いアイコン */
+
+.icon {
+    width: 45px;
+    height: 45px;
+
+    border: 1px solid #aaa;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 15px;
+
+    font-size: 20px;
+}
+
+.point h3 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.point p {
+    font-size: 11px;
+    line-height: 1.8;
+}
+/*4ページ*/
+/* ACCESSページ */
+
+.access-page {
+    width: 85%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.access-page h1 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.sub-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* お店情報と地図 */
+
+.access-content {
+    display: flex;
+
+    width: 85%;
+    margin: 0 auto;
+
+    gap: 50px;
+}
+
+
+/* お店情報 */
+
+.shop-info {
+    width: 40%;
+}
+
+.shop-info h2 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.shop-info p {
+    font-size: 13px;
+    line-height: 2;
+    margin: 15px 0;
+}
+
+
+/* 予約ボタン */
+
+.access-button {
+    display: block;
+
+    background: #8b735f;
+    color: white;
+
+    text-decoration: none;
+    text-align: center;
+
+    padding: 12px;
+
+    margin-top: 25px;
+}
+
+
+/* 地図 */
+
+.map {
+    width: 60%;
+}
+
+.map img {
+    width: 100%;
+    height: 300px;
+
+    object-fit: cover;
+}

@@ -1,0 +1,152 @@
+/* ページ全体 */
+body {
+    margin: 0;
+    background: #f7f3ed;
+    color: #4b443e;
+    font-family: serif;
+}
+
+
+/* ヘッダー */
+header {
+    height: 80px;
+    background: #eee9e1;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 40px;
+    border-bottom: 1px solid #aaa;
+}
+
+
+/* ロゴ */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo span {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.logo small {
+    letter-spacing: 4px;
+}
+
+
+/* メニュー */
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    color: #4b443e;
+    text-decoration: none;
+
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+
+/* 予約ボタン */
+.reserve-button {
+    background: #8b735f;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 20px;
+    margin-left: 20px;
+
+    border-radius: 3px;
+}
+
+
+/* メイン画像 */
+.main-image {
+    position: relative;
+}
+
+.main-image img {
+    width: 100%;
+    height: 500px;
+
+    object-fit: cover;
+}
+
+
+/* 画像の上の文字 */
+.message {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.message h1 {
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.message p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+
+/* コンセプト */
+.concept {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 80px;
+}
+
+
+.concept div {
+    width: 45%;
+}
+
+
+.concept h2 {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+
+.concept p {
+    line-height: 2;
+}
+
+
+.concept img {
+    width: 40%;
+}
+
+
+/* 詳しく見るボタン */
+.more {
+    display: inline-block;
+
+    color: #4b443e;
+    text-decoration: none;
+
+    border: 1px solid #8b735f;
+
+    padding: 10px 25px;
+}
+
+
+/* フッター */
+footer {
+    text-align: center;
+
+    padding: 30px;
+
+    background: #eee9e1;
+}
